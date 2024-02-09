@@ -1,10 +1,37 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: 'Times New Roman', Times, serif
   font-size: 14px;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, silver 50%, #ececec 50%);
+  
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
+  height:100%;
+  
+}
+
+h1{
+  text-align: center;
+  font-size:50px;
+  color: #333;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px; 
+  border-radius: 50%; 
+  border: 5px solid #ccc; 
+}
+
+p {
+  text-align: center;
+  color: black;
+  width: 500px;
+  margin: 20px auto;
 }

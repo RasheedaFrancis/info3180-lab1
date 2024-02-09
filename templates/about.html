@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
     <h1>Rasheeda Francis</h1>
-    <p>I am Rasheeda Francis,a third year computing student at the University of the West Indies.I enjoy coding, swimming and reading.After graduation I want to become a software developer</p>
+    <img src="{{ url_for('static', filename='css/c.jpg') }}" alt="Image">
+    <p>I am Rasheeda Francis,a third year computing student at the University of the West Indies. I enjoy coding, swimming and reading. After graduation I want to become a software developer</p>
 </body>
 </html> 
